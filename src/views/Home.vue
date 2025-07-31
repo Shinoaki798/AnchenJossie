@@ -1,5 +1,5 @@
 <template>
-  <div class="home" :class="{ 'background-faded': backgroundFaded, 'transforming': backgroundFaded, 'about-mode': aboutModeActivated, 'external-navigating': isExternalNavigating }">
+  <div class="home" :class="{ 'background-faded': backgroundFaded, 'transforming': backgroundFaded, 'about-mode': aboutModeActivated, 'external-navigating': isExternalNavigating }" :style="backgroundStyle">>
     <!-- Transitional Header -->
     <header v-if="showHeader" class="transition-header">
       <div class="logo">{{ currentLanguage === 'en' ? 'Anchen Jossie Trading Co., Ltd.' : '安宸优思贸易有限公司' }}</div>
@@ -147,8 +147,9 @@
 </template>
 
 <script>
-import { defineComponent, ref, onMounted, onUnmounted } from 'vue'
+import { defineComponent, ref, onMounted, onUnmounted, computed } from 'vue'
 import { useRouter } from 'vue-router'
+import heroImage from '@/assets/your-hero-image.jpg'
 
 export default defineComponent({
   name: 'Home',
@@ -177,6 +178,15 @@ export default defineComponent({
     const currentLanguage = ref('en')
     const isExternalNavigating = ref(false)
 
+    // Computed style for background image
+    const backgroundStyle = computed(() => ({
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed'
+    }))
+
     // Scroll animations
     const observedElements = ref(new Set())
 
@@ -204,7 +214,7 @@ export default defineComponent({
     // Preload background image
     const preloadImage = () => {
       const img = new Image()
-      img.src = '../images/your-hero-image.jpg'
+      img.src = heroImage
     }
 
     const hideTransition = () => {
@@ -321,7 +331,9 @@ export default defineComponent({
       backToHome,
       setupScrollAnimations,
       isExternalNavigating,
-      navigateToExternalPage
+      navigateToExternalPage,
+      heroImage,
+      backgroundStyle
     }
   }
 })
@@ -339,11 +351,6 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../images/your-hero-image.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   position: fixed;
   top: 0;
   left: 0;
