@@ -339,7 +339,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('/images/your-hero-image.jpg');
+  background: url('../images/your-hero-image.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
