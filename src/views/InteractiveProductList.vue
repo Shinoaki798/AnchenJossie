@@ -21,9 +21,10 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
 import * as d3 from 'd3';
-import { useRoute } from 'vue-router';
+import { useRoute, useRouter } from 'vue-router';
 
 const route = useRoute();
+const router = useRouter();
 const lang = computed(() => route.query.lang || 'en');
 
 // --- Refs for DOM elements ---
@@ -129,12 +130,12 @@ const data_cn = {
     {
       name: "混炼胶",
       linkName: "SiliRub",
-      children: ["半透明", "亚透明", "普通", "经济型"].map(type => ({
+      children: ["半透明", "亚透明", "普通", "经济型"].map((type, index) => ({
         name: type,
-        linkName: type,
-        children: ["成型", "挤出"].map(app => ({
+        linkName: ["Translucent", "Subtranslucent", "Common", "Economic"][index],
+        children: ["成型", "挤出"].map((app, appIndex) => ({
           name: app,
-          linkName: app
+          linkName: ["Molding", "Extrusion"][appIndex]
         }))
       }))
     },
@@ -145,17 +146,17 @@ const data_cn = {
         {
           name: "标准",
           linkName: "Standard",
-          children: ["成型", "挤出"].map(app => ({
+          children: ["成型", "挤出"].map((app, appIndex) => ({
             name: app,
-            linkName: app
+            linkName: ["Molding", "Extrusion"][appIndex]
           }))
         },
         {
           name: "经济型",
           linkName: "Economic",
-          children: ["成型", "挤出"].map(app => ({
+          children: ["成型", "挤出"].map((app, appIndex) => ({
             name: app,
-            linkName: app
+            linkName: ["Molding", "Extrusion"][appIndex]
           }))
         },
         { name: "通用", linkName: "General Purpose" }
@@ -173,14 +174,27 @@ const data_cn = {
             "食品接触成型", "超低硬度成型", "加成固化",
             "耐高温", "自润滑", "抗静电",
             "阻燃", "陶瓷"
-          ].map(name => ({ name, linkName: name }))
+          ].map((name, index) => ({
+            name,
+            linkName: [
+              "Cable Accessories", "High Rebound", "High Strength Molding",
+              "Food Contact Molding", "Ultra Low Hardness Molding", "Addition-curing",
+              "High Temperature Resistant", "Self-lubricating", "Anti-static",
+              "Flame Retardant", "Ceramic"
+            ][index]
+          }))
         },
         {
           name: "气相硅橡胶",
           linkName: "Fumed Silicone Rubber",
           children: [
             "经济型高撕裂强度", "标准高撕裂强度", "高透明度"
-          ].map(name => ({ name, linkName: name }))
+          ].map((name, index) => ({
+            name,
+            linkName: [
+              "Economic High tear Strength", "Standard High tear Strength", "High Transparency"
+            ][index]
+          }))
         },
         { name: "电绝缘", linkName: "Electrical Insulating" }
       ]
@@ -201,10 +215,12 @@ const minimapIndicatorText = computed(() => (
 
 // --- D3 and Component Logic ---
 
-const navigateWithTransition = (href) => {
+const navigateWithTransition = (slug) => {
   isTransitioning.value = true;
   setTimeout(() => {
-    window.location.href = href;
+    // Check if current language is Chinese and use appropriate route
+    const routePath = lang.value === 'cn' ? `/zh/products/${slug}` : `/products/${slug}`;
+    router.push(routePath);
   }, 800);
 };
 
@@ -217,8 +233,9 @@ const handleNodeClick = (event, d) => {
     if (path[2] && !noThirdDropdownNeeded.includes(path[1])) {
       fileName += `-${path[2]}`;
     }
-    fileName = fileName.replace(/\s+/g, '_') + '/';
-    navigateWithTransition('../' + fileName);
+    // Create a proper slug for the router
+    const slug = fileName.replace(/\s+/g, '_');
+    navigateWithTransition(slug);
   }
 };
 
