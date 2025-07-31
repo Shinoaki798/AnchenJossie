@@ -1,0 +1,502 @@
+{
+  "title": "Electrical Insulating Silicone Rubber",
+  "subtitle": "Product Overview",
+  "images": [
+    {
+      "src": "/images/products/en/SpeRub-Electrical_Insulating/electricalSilicone1.png",
+      "alt": "electricalSilicone1"
+    },
+    {
+      "src": "/images/products/en/SpeRub-Electrical_Insulating/electricalSilicone2.png",
+      "alt": "electricalSilicone2"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Characteristics",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "Good processability",
+            "Good electrical insulation properties",
+            "Good tracking & erosion resistance",
+            "Good hydrophobicity and flame retardancy"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Typical Data",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Properties",
+                  "colspan": 2,
+                  "rowspan": 3
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 8,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Test Method",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Standard Electrical Insulating Rubber",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "General Purpose Electrical Insulating Rubber",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Common Electrical Insulating Rubber",
+                  "colspan": 4,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "NE-T-1, NE-T-1U",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "NE-T-2, NE-T-2U",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "NE-C-1, NE-C-1U",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "NE-C-2, NE-C-2U",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "NE-D-1, NE-D-1U",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "NE-D-2, NE-D-2U",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "NE-E-1, NE-E-1U",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "NE-E-2, NE-E-2U",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Product inherent color, no extraneous matter.",
+                  "colspan": 8,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Visual Inspection",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Density (g/cm³)",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.48 ~ 1.56",
+                  "colspan": 8,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D792",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Hardness (Shore A)",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "62±4",
+                  "colspan": 4,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "60±4",
+                  "colspan": 4,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength (MPa ≥)",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "4.5",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "4.0",
+                  "colspan": 6,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break (%) ≥",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "260",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "280",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "260",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "280",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "220",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "240",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "220",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tension Set (%) ≤",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "2.0",
+                  "colspan": 8,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C (kN/m) ≥",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "13.0",
+                  "colspan": 6,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "12.0",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Volume Resistivity (Ω·cm ≥)",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7×10¹⁴",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5×10¹⁴",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "3×10¹⁴",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1×10¹⁴",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60093",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Dielectric Strength (kV/mm ≥)",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "22",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 4,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60243",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Dielectric Loss (tg δ ≤)",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "3×10⁻²",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6×10⁻²",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7×10⁻²",
+                  "colspan": 4,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60250",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Dielectric Constant",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "3 ~ 4",
+                  "colspan": 8,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tracking Resistance & Erosion Resistance",
+                  "colspan": 1,
+                  "rowspan": 2
+                },
+                {
+                  "tag": "td",
+                  "text": "1A4.5 grade",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Pass",
+                  "colspan": 8,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60587",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Erosion depth: 2.5 mm ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "2.5",
+                  "colspan": 8,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Flame Retardancy (3 mm)",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "FV-0",
+                  "colspan": 8,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60695-11-10",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "● Physical data in the above table is for reference only.",
+    "● Curing condition: 175°C* 5min.",
+    "● Ratio of curing agent used: 2,5-Dimethyl-2,5-di(tert-butylperoxy)hexane: 0.4%.",
+    "● The supplied test report is obtained by the Quality Inspection Department with the curing conditions and testing method of the compa-\nny; due to the difference of curing conditions and testing method, we can't guarantee that both parties obtain the same testing result, and\nwe suggest that users should use the test data obtained under their own testing conditions as the reference for service performance. Al\nthe above performance data and application recommendations are only a reference for use on the service performance of product, instead\nof a guarantee on the effectiveness or general applicability of our products under a certain application."
+  ]
+}

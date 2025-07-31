@@ -1,0 +1,264 @@
+{
+  "title": "Ceramic Silicone Rubber",
+  "subtitle": "Product Overview",
+  "images": [
+    {
+      "src": "/images/products/en/SpeRub-Silicone_Rubber-Ceramic/ceramicSilicone1.png",
+      "alt": "ceramicSilicone1"
+    },
+    {
+      "src": "/images/products/en/SpeRub-Silicone_Rubber-Ceramic/ceramicSilicone2.png",
+      "alt": "ceramicSilicone2"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Characteristics",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "Good physical, mechanical and electrical properties",
+            "Superior flame retardancy and self-extinguishing property",
+            "The flame retardancy of 3mm test piece can reach the class FV-O stated in the national standard GB/T10707-2008",
+            "Compliance with the requirements of ROHS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Typical Data",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Property",
+                  "colspan": 1,
+                  "rowspan": 2
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Test Method",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "th",
+                  "text": "NE-C50",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-C60",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-C70",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "White, no extraneous matter.",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Visual Inspection",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Density (g/cm³)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.30 ~ 1.40",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.35 ~ 1.45",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.37 ~ 1.47",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D792",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Hardness (Shore A)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "55±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "63±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "70±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength (MPa) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break (%) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "350",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "300",
+                  "colspan": 2,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C (kN/m) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "15",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Flame Retardancy, 3mm",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "FV-1",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60695-11-10",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "● Physical data in the above table is for reference only.",
+    "● Curing condition: 175°C* 5Min.",
+    "● Ratio of curing agent liquid 2,5-Dimethyl-2,5-di(tert-butylperoxy)hexane: 1.0%.",
+    "●The supplied test report is obtained by the Quality Inspection Department with the curing conditions and\n          testing method of the compa-\n          ny; due to the difference of curing conditions and testing method, we can't guarantee that both parties obtain\n          the same testing result, and\n          we suggest that users should use the test data obtained under their own testing conditions as the reference\n          for service performance. Al\n          the above performance data and application recommendations are only a reference for use on the service\n          performance of product, instead\n          of a guarantee on the effectiveness or general applicability of our products under a certain application."
+  ]
+}

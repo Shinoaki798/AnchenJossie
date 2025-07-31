@@ -1,0 +1,377 @@
+{
+  "title": "Silicone Rubber for Cable Accessories",
+  "subtitle": "Product Overview",
+  "images": [
+    {
+      "src": "/images/products/en/SpeRub-Silicone_Rubber-Cable_Accessories/cableAccessoryImage1.png",
+      "alt": "cableAccessoryImage1"
+    },
+    {
+      "src": "/images/products/en/SpeRub-Silicone_Rubber-Cable_Accessories/cableAccessoryImage2.png",
+      "alt": "cableAccessoryImage2"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Characteristics",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "Platinum extrusion molding hot vulcanized silicone rubber",
+            "Excellent extrusion properties",
+            "Excellent mechanical properties",
+            "Excellent heat resistance"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Typical Data",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Properties",
+                  "colspan": 2,
+                  "rowspan": 2
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Test Method",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "th",
+                  "text": "NE-941DL",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-942DL",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Transparent, no extraneous matter.",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Light yellow, no extraneous matter.",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Visual Inspection",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Density, g/cm³",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.12–1.13",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D792",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Curing",
+                  "colspan": 1,
+                  "rowspan": 5
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "39–42",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "10.0",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "750",
+                  "colspan": 2,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tension Set, % ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7",
+                  "colspan": 2,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "38",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Post-curing",
+                  "colspan": 1,
+                  "rowspan": 5
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "42–46",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "10.0",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "700",
+                  "colspan": 2,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tension Set, % ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6",
+                  "colspan": 2,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "35",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Rebound Resilience, % ≥",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "53",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Volume Resistivity, Ω·cm ≥",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.0×10¹⁵",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60093",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Dielectric Strength, kV/mm ≥",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "25",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60243",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "● Physical data is for reference only.",
+    "● Vulcanization condition: 120°C × 5Min",
+    "● Ratio for platinum vulcanizing agent addition: A: 0.3%-0.4%, B: 0.4%-0.5%",
+    "● Post-curing condition: 200°C × 2h",
+    "● The supplied test report is obtained by the Quality Inspection Department with the curing conditions and\ntesting method of the company; due to the difference of curing conditions and testing method, we can't\nguarantee that both parties obtain the same testing result, and we suggest that users should use the test data\nobtained under their own testing conditions as the reference for service performance. All the above\nperformance data and application recommendations are only a reference for use on the service performance\nof product, instead of a guarantee on the effectiveness or general applicability of our products under a\ncertain application."
+  ]
+}

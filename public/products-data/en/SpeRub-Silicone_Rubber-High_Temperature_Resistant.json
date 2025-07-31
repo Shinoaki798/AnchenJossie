@@ -1,0 +1,2029 @@
+{
+  "title": "High Temperature Resistant Silicone Rubber",
+  "subtitle": "Product Overview",
+  "images": [
+    {
+      "src": "/images/products/en/SpeRub-Silicone_Rubber-High_Temperature_Resistant/highTempSilicone1.png",
+      "alt": "highTempSilicone1"
+    },
+    {
+      "src": "/images/products/en/SpeRub-Silicone_Rubber-High_Temperature_Resistant/highTempSilicone2.png",
+      "alt": "highTempSilicone2"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Characteristics",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "Excellent physical and mechanical properties",
+            "Wide range of applications",
+            "Can be used at 250°C for a long time and withstand an instant temperature of 300°C"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Typical Data",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Properties",
+                  "colspan": 2,
+                  "rowspan": 2
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 7,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Test Method",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "th",
+                  "text": "NE-G121",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G131",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G141",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G151",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G161",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G171",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G181",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Light yellow, no obvious extraneous matter.",
+                  "colspan": 7,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Visual Inspection",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Density, g/cm³",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.00～1.06",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.03～1.13",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.08～1.18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.10～1.20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.14～1.24",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.17～1.27",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.20～1.30",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D792",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Curing",
+                  "colspan": 1,
+                  "rowspan": 5
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "23±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "30±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "40±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "50±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "60±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "70±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "80±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "650",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "550",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "450",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "380",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "320",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "220",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "180",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tension Set, % ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "10",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "15",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Post-curing",
+                  "colspan": 1,
+                  "rowspan": 4
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "24±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "31±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "41±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "53±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "63±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "72±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "83±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "4.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.5",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "600",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "320",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "300",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "260",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "180",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "150",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "14",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "16",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "16",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Compression Set, 180°C×22h ≤",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "45",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "35",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "30",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "25",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D395",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Properties variation percent during aging(250°C×72h)",
+                  "colspan": 1,
+                  "rowspan": 4
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-3",
+                  "colspan": 4,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "4",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-60",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-35",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-30",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-15",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-40",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-20",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-15",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-30",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-15",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Properties",
+                  "colspan": 2,
+                  "rowspan": 2
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 5,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Test Method",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "th",
+                  "text": "NE-G140",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G150",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G160",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G170",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G180",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Milk-white, no obvious extraneous matter.",
+                  "colspan": 5,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Visual Inspection",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Density, g/cm³",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.08～1.18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.10～1.20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.14～1.24",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.17～1.27",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.20～1.30",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D792",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Curing",
+                  "colspan": 1,
+                  "rowspan": 5
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "40±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "50±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "60±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "70±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "80±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.5",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "420",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "380",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "320",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "220",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "180",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tension Set, % ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Post-curing",
+                  "colspan": 1,
+                  "rowspan": 4
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "44±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "55±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "65±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "75±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "85±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.0",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "320",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "300",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "200",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "150",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "16",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "16",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Compression Set, 180°C×22h ≤",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "35",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "25",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "30",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "25",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D395",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Properties variation percent during aging(250°C×72h)",
+                  "colspan": 1,
+                  "rowspan": 4
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-6",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-4",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-45",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-50",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-40",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-25",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-15",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-35",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Properties",
+                  "colspan": 2,
+                  "rowspan": 2
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 5,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Test Method",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "th",
+                  "text": "NE-G132",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G142",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G152",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G162",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-G172",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Light yellow, no obvious extraneous matter.",
+                  "colspan": 5,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Visual Inspection",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Density, g/cm³",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.03～1.13",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.08～1.18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.11～1.21",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.15～1.25",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.17～1.27",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D792",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Curing",
+                  "colspan": 1,
+                  "rowspan": 5
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "30±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "40±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "50±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "60±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "70±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.5",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "600",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "550",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "500",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "400",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "300",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tension Set, % ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "9",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8",
+                  "colspan": 4,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "22",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "25",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Post-curing",
+                  "colspan": 1,
+                  "rowspan": 4
+                },
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "43±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "53±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "64±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "75±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "460",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "420",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "300",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "220",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tear Strength, Die C kN/m ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "19",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Compression Set, 180°C×22h ≤",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "38",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "35",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D395",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Properties variation percent during aging(250°C×72h)",
+                  "colspan": 1,
+                  "rowspan": 4
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Hardness, Shore A",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-5",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Tensile Strength, MPa ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-35",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-30",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Elongation at Break, % ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-15",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "-30",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "● Physical data in the above table is for reference only.",
+    "● Curing condition: 175°C* 5Min. • Post-curing condition: 200°C* 4h.",
+    "● Ratio of curing agent liquid 2,5-Dimethyl-2,5-di(tert-butylperoxy)hexane: 0.65%.",
+    "●The supplied test report is obtained by the Quality Inspection Department with the curing conditions and testing method of the compa-\nny; due to the difference of curing conditions and testing method, we can't guarantee that both parties obtain the same testing result, and\nwe suggest that users should use the test data obtained under their own testing conditions as the reference for service performance. Al\nthe above performance data and application recommendations are only a reference for use on the service performance of product, instead\nof a guarantee on the effectiveness or general applicability of our products under a certain application."
+  ]
+}

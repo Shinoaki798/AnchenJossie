@@ -1,0 +1,650 @@
+{
+  "title": "⾼透明⽓相胶",
+  "subtitle": "产品介绍",
+  "images": [
+    {
+      "src": "/images/products/cn/SpeRub-Fumed_Silicone_Rubber-High_Transparency/high_transparency_silicone_1.png",
+      "alt": "high_transparency_silicone_1"
+    },
+    {
+      "src": "/images/products/cn/SpeRub-Fumed_Silicone_Rubber-High_Transparency/high_transparency_silicone_2.png",
+      "alt": "high_transparency_silicone_2"
+    }
+  ],
+  "sections": [
+    {
+      "title": "主要特征",
+      "content": [
+        {
+          "type": "features",
+          "data": [
+            "符合FDA和LFGB标准",
+            "高撕裂强度（高硬度硅胶撕裂强度可达40kN/m）",
+            "高透明度和优异的物理性能",
+            "耐黄变、工艺性好"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "主要技术指标",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "项目",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-9430",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-9440",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-9450",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-9460",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-9470",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-9480",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "测试指标",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "外观",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "透明，无杂质。",
+                  "colspan": 6,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "目视检查",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "密度 (g/cm³)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.06 ~ 1.10",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.09 ~ 1.15",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.12 ~ 1.18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.14 ~ 1.20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.17 ~ 1.23",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.18 ~ 1.25",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D792",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "硬度 (邵度A)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "32±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "40±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "50±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "60±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "70±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "80±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "拉伸强度 (MPa) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "9.0",
+                  "colspan": 4,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 3
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "扯断伸长率 (%) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "700",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "600",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "500",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "450",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "350",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "250",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "扯断永久变形 (%) ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8",
+                  "colspan": 6,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "撕裂强度B级 (kN/m) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "18",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "35",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "40",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "硬度 (后硫化) (邵A)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "33±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "45±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "55±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "65±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "75±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "83±2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D2240",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "拉伸强度 (MPa) ≥ (后硫化)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.5",
+                  "colspan": 2,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "8.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "7.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D412",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "扯断伸长率 (%) ≥ (后硫化)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "650",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "500",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "450",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "350",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "250",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "150",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "撕裂强度B级 (kN/m) ≥ (后硫化)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "12",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "25",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "19",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "ASTM D624",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "回弹性 (%) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "50",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "45",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "40",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "35",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "体积电阻率 (Ω·cm) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1×10¹⁵",
+                  "colspan": 6,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60093",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "介电强度 (kV/mm) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "20",
+                  "colspan": 6,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "IEC 60243",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "一次线收缩率 (%)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "3.2 ~ 3.7",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "3.0 ~ 3.6",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "2.9 ~ 3.4",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "2.8 ~ 3.4",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "2.6 ~ 3.2",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "2.4 ~ 3.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "/",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "● 上述表格中的物理数据仅供参考。",
+    "● 硫化条件：175°C × 5分钟。● 后硫化条件：200°C × 4小时。",
+    "● 交联剂用量比例：2,5-二甲基-2,5-二(叔丁基过氧)己烷：0.65%。",
+    "● 所提供的检测报告由公司质检部门在上述硫化条件和测试方法下获得；由于硫化条件和测试方法的不同，无法保证双方获得相同的测试结果，建议用户以自身测试条件下获得的数据作为产品性能参考。以上所有性能数据及应用建议仅供参考，不构成对产品在特定应用下有效性或通用适用性的保证。"
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "title": "陶瓷胶",
+  "subtitle": "产品介绍",
+  "images": [
+    {
+      "src": "/images/products/cn/SpeRub-Silicone_Rubber-Ceramic/ceramicSilicone1.png",
+      "alt": "ceramicSilicone1"
+    },
+    {
+      "src": "/images/products/cn/SpeRub-Silicone_Rubber-Ceramic/ceramicSilicone2.png",
+      "alt": "ceramicSilicone2"
+    }
+  ],
+  "sections": [
+    {
+      "title": "主要特征",
+      "content": [
+        {
+          "type": "features",
+          "data": [
+            "在火灾的高温条件下，不熔融滴落，且可形成坚硬的陶瓷层，具有阻燃性，耐高温性能。"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "主要技术指标",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "项目",
+                  "colspan": 1,
+                  "rowspan": 2
+                },
+                {
+                  "tag": "th",
+                  "text": "指标",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "测试标准",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "th",
+                  "text": "NE-C50",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-C60",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "NE-C70",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "外观",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "白色, 无明显机械杂质",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "目视检测",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "密度 (g/cm³)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.30 ~ 1.40",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.35 ~ 1.45",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.37 ~ 1.47",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "GB/T 533-2008",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "硬度 (邵氏A)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "55±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "63±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "70±3",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "GB/T 531.1-2008",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "拉伸强度 (MPa) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "5.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "6.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "GB/T 528-2009",
+                  "colspan": 1,
+                  "rowspan": 2
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "拉断伸长率 (%) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "350",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "300",
+                  "colspan": 2,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "撕裂强度B型 (kN/m) ≥",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "15",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "GB/T 529-2008",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "阻燃性，级, 3mm",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "FV-1",
+                  "colspan": 3,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "GB/T 10707-2008",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "● 上述表中所列物性数据仅供参考。",
+    "● 硫化条件: 175°C × 5min，液体硫化添加剂比例为1.0%，主要成分2，5-二甲基-2，5-二（叔丁基过氧基）己烷。",
+    "● 随货的检测报告仅是质检部依据公司硫化条件与检测方法测试所得；由于硫化条件与检测方法的不同，我们不能保证双方能得到同样的测试结果，建议使用者以自己的检测条件下得出的检测数据作为使用性能参考；以上任何性能数据以及适用建议，只是对公司产品使用性能的一个使用参考，而不是公司产品在特定应用下的有效性或通用性的担保。"
+  ]
+}

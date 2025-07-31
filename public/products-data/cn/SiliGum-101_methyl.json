@@ -1,0 +1,111 @@
+{
+  "title": "101甲基硅橡胶",
+  "subtitle": "技术指标以及实际应用",
+  "images": [
+    {
+      "src": "/images/products/cn/SiliGum-101_methyl/101MethylSiliconeGumImage1.jpg",
+      "alt": "101MethylSiliconeGumImage1"
+    },
+    {
+      "src": "/images/products/cn/SiliGum-101_methyl/101MethylSiliconeGumImage2.jpg",
+      "alt": "101MethylSiliconeGumImage2"
+    },
+    {
+      "src": "/images/products/cn/SiliGum-101_methyl/101MethylSiliconeGumImage3.jpg",
+      "alt": "101MethylSiliconeGumImage3"
+    }
+  ],
+  "sections": [
+    {
+      "title": "技术指标",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "项目",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "指标",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "外观",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "⽆⾊透明，⽆明显机械杂质",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "相对分子量 (×10⁴)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "50 ~ 100",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "挥发分 (150°C × 3h, % ≤)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "用途",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "本品是⼀类⾼摩尔质量的线型聚⼆甲基硅氧烷",
+            "适⽤于硅酮母粒的基胶及胶状硫化剂等产品⽣产",
+            {
+              "text": "还可与甲基⼄烯基硅橡胶并⽤，配制成:",
+              "subpoints": [
+                "⾼撕裂强度硅橡胶",
+                "⽣产低硬度硅橡",
+                "海绵硅橡胶等产品"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "●上述数据仅供参考，可能会因加工条件不同而有所变化。"
+  ]
+}

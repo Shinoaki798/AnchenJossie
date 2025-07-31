@@ -1,0 +1,93 @@
+{
+  "title": "101B 羟基⽣胶",
+  "subtitle": "技术指标以及实际应用",
+  "images": [
+    {
+      "src": "/images/products/cn/SiliGum-101B_Hydroxyl/101BHydroxylSiliconeGumImage1.png",
+      "alt": "101BHydroxylSiliconeGumImage1"
+    }
+  ],
+  "sections": [
+    {
+      "title": "技术指标",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "项目",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "指标",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "外观",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "⽆⾊透明，⽆明显机械杂质",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "相对分子量, 10⁴",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "45 ~ 80",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "挥发分, 150℃*3h, % ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "用途",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "本品是⼀类羟基封端⾼摩尔质量的线型聚⼆甲基硅氧烷，主要⽤于压敏胶和乳化⽅向",
+            "⾼分⼦量的羟基⽣胶可以提⾼压敏胶的附着⼒."
+          ]
+        }
+      ]
+    }
+  ],
+  "footnotes": []
+}

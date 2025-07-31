@@ -1,0 +1,111 @@
+{
+  "title": "101 Methyl Silicone Gum",
+  "subtitle": "Product Overview",
+  "images": [
+    {
+      "src": "/images/products/en/SiliGum-101_methyl/101MethylSiliconeGumImage1.jpg",
+      "alt": "101MethylSiliconeGumImage1"
+    },
+    {
+      "src": "/images/products/en/SiliGum-101_methyl/101MethylSiliconeGumImage2.jpg",
+      "alt": "101MethylSiliconeGumImage2"
+    },
+    {
+      "src": "/images/products/en/SiliGum-101_methyl/101MethylSiliconeGumImage3.jpg",
+      "alt": "101MethylSiliconeGumImage3"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Technical Indexes",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Item",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Colorless, transparent, no extraneous matter.",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Molecular Weight (×10⁴)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "50 ~ 100",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Volatile Content (150°C × 3h, % ≤)",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.5",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Main Applications",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "High-mole-mass linear polydimethylsiloxane",
+            "Used as base rubber in silicone masterbatch",
+            {
+              "text": "Works with methyl vinyl silicone gum to make:",
+              "subpoints": [
+                "High-tear-strength silicone rubber",
+                "Low-hardness silicone rubber",
+                "Sponge silicone rubber"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    "● The above data is for reference only and may vary depending on processing conditions."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "title": "101B Hydroxyl Silicone Gum",
+  "subtitle": "Technical Indexes & Application",
+  "images": [
+    {
+      "src": "/images/products/en/SiliGum-101B_Hydroxyl/101BHydroxylSiliconeGumImage1.png",
+      "alt": "101BHydroxylSiliconeGumImage1"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Technical Indexes",
+      "content": [
+        {
+          "type": "table",
+          "data": {
+            "rows": [
+              [
+                {
+                  "tag": "th",
+                  "text": "Item",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "th",
+                  "text": "Product Data",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Appearance",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "Colorless, transparent,no extraneous matter.",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Molecular weight, 10⁴",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "45 ~ 80",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ],
+              [
+                {
+                  "tag": "td",
+                  "text": "Volatile content, 150℃*3h, % ≤",
+                  "colspan": 1,
+                  "rowspan": 1
+                },
+                {
+                  "tag": "td",
+                  "text": "1.0",
+                  "colspan": 1,
+                  "rowspan": 1
+                }
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Applications",
+      "content": [
+        {
+          "type": "applications",
+          "data": [
+            "This product is a kind of hydroxyl capped high molar mass linear polydimethylsiloxane, mainly used for pressure-sensitive adhesives and emulsion direction.",
+            "High molecular weight hydroxyl silicone gum can improve the adhesion of pressure-sensitive adhesives."
+          ]
+        }
+      ]
+    }
+  ],
+  "footnotes": []
+}
