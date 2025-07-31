@@ -74,7 +74,35 @@
     <p>{{ error }}</p>
   </div>
   <div v-else class="loading">
-    <p>Loading product...</p>
+    <div class="skeleton-container">
+      <!-- Header skeleton -->
+      <div class="skeleton-header">
+        <div class="skeleton-line skeleton-title"></div>
+        <div class="skeleton-line skeleton-subtitle"></div>
+      </div>
+      
+      <!-- Content skeleton -->
+      <div class="skeleton-content">
+        <div class="skeleton-section">
+          <div class="skeleton-line skeleton-heading"></div>
+          <div class="skeleton-line skeleton-text"></div>
+          <div class="skeleton-line skeleton-text short"></div>
+        </div>
+        
+        <div class="skeleton-section">
+          <div class="skeleton-line skeleton-heading"></div>
+          <div class="skeleton-line skeleton-text"></div>
+          <div class="skeleton-line skeleton-text"></div>
+          <div class="skeleton-line skeleton-text short"></div>
+        </div>
+        
+        <div class="skeleton-section">
+          <div class="skeleton-line skeleton-heading"></div>
+          <div class="skeleton-line skeleton-text"></div>
+          <div class="skeleton-line skeleton-text short"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -267,5 +295,70 @@ th {
   text-align: center;
   padding: 50px;
   font-size: 1.2em;
+}
+
+.skeleton-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skeleton-header {
+  margin-bottom: 40px;
+}
+
+.skeleton-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.skeleton-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skeleton-line {
+  height: 20px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton-title {
+  height: 32px;
+  width: 60%;
+  margin-bottom: 16px;
+}
+
+.skeleton-subtitle {
+  height: 20px;
+  width: 40%;
+}
+
+.skeleton-heading {
+  height: 24px;
+  width: 30%;
+  margin-bottom: 8px;
+}
+
+.skeleton-text {
+  height: 16px;
+  width: 100%;
+}
+
+.skeleton-text.short {
+  width: 75%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 </style>

@@ -1,5 +1,15 @@
 <template>
   <div id="vue-app-container">
+    <!-- Loading Overlay -->
+    <div v-if="isNavigating" class="loading-overlay">
+      <div class="loading-spinner-wrapper">
+        <div class="loading-spinner"></div>
+      </div>
+      <div class="loading-text">
+        {{ lang === 'cn' ? '正在加载产品信息...' : 'Loading product information...' }}
+      </div>
+    </div>
+
     <!-- Reset Button -->
     <button :class="['btn', 'reset-button', { visible: resetButtonVisible }]" @click="resetView">⟲ {{ resetViewText }}</button>
 
@@ -33,6 +43,7 @@ const minimapRef = ref(null);
 
 // --- Reactive State ---
 const isTransitioning = ref(true);
+const isNavigating = ref(false);
 const resetButtonVisible = ref(false);
 const contentVisible = ref(true);
 
@@ -216,15 +227,23 @@ const minimapIndicatorText = computed(() => (
 // --- D3 and Component Logic ---
 
 const navigateWithTransition = (slug) => {
+  // Prevent double-clicking
+  if (isNavigating.value) return;
+  
+  isNavigating.value = true;
   isTransitioning.value = true;
+  
   setTimeout(() => {
     // Check if current language is Chinese and use appropriate route
     const routePath = lang.value === 'cn' ? `/zh/products/${slug}` : `/products/${slug}`;
     router.push(routePath);
-  }, 800);
+  }, 1500); // Increased delay to show loading animation
 };
 
 const handleNodeClick = (event, d) => {
+  // Prevent clicking during navigation
+  if (isNavigating.value) return;
+  
   if (!d.children && d.depth > 0) {
     const path = d.ancestors().reverse().slice(1).map(n => n.data.linkName || n.data.name);
     let fileName = path[0] || '';
@@ -414,6 +433,82 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
+  /* Loading Overlay */
+  .loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .loading-spinner-wrapper {
+    animation: scaleIn 0.5s ease-out 0.1s both;
+    margin-bottom: 20px;
+  }
+
+  .loading-spinner {
+    width: 60px;
+    height: 60px;
+    border: 6px solid #34495e;
+    border-top: 6px solid #ffffff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  .loading-text {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    animation: fadeInUp 0.6s ease-out 0.2s both;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
   #vue-app-container {
     font-family: "Playfair Display", serif;
     margin: 0;
@@ -572,6 +667,16 @@ onBeforeUnmount(() => {
   :deep(.node:hover circle) {
     r: 35;
     filter: drop-shadow(0 0 10px #ff69b4);
+  }
+
+  /* Disable interactions when navigating */
+  .loading-overlay ~ * :deep(.node) {
+    pointer-events: none;
+    opacity: 0.6;
+  }
+
+  .loading-overlay ~ * :deep(.node circle) {
+    cursor: not-allowed;
   }
 
   :deep(.node text) {
