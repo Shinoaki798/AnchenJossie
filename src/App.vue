@@ -3,12 +3,7 @@
     <!-- Black loading overlay that starts visible and fades out -->
     <!-- <div v-if="showLoadingOverlay" class="loading-overlay" :class="{ 'fade-out': fadeOutLoading }"></div> -->
     
-    <PageTransition 
-      :isTransitioning="isTransitioning"
-      :fromRoute="fromRoute"
-      :toRoute="toRoute"
-      ref="pageTransition"
-    />
+    <!-- PageTransition component removed to eliminate navigation delay -->
     <AppHeader v-if="$route.name !== 'Home'" />
     <router-view v-slot="{ Component, route }">
       <div class="router-view-wrapper">
@@ -17,7 +12,7 @@
         </transition>
       </div>
     </router-view>
-    <AppFooter v-if="!['Home', 'InteractiveProductList', 'InteractiveProductListCN'].includes($route.name) && !isTransitioning" />
+    <AppFooter v-if="!['Home', 'InteractiveProductList', 'InteractiveProductListCN'].includes($route.name)" />
   </div>
 </template>
 
@@ -36,12 +31,6 @@ export default defineComponent({
   setup() {
     const route = useRoute()
     const router = useRouter()
-    const pageTransition = ref(null)
-    const isTransitioning = ref(false)
-    const fromRoute = ref('')
-    const toRoute = ref('')
-    const showLoadingOverlay = ref(false)
-    const fadeOutLoading = ref(false)
     
     // Watch for route changes and update body class
     watch(() => route.name, (newRoute, oldRoute) => {
@@ -51,34 +40,8 @@ export default defineComponent({
         document.body.classList.remove('home-page')
       }
       
-      const fromProductPages = ['Products', 'ProductsCN'];
-      const toProductDetailPages = ['ProductDetail', 'ProductDetailCN'];
-
-      // Handle page transition from Home to other pages
-      if ( (oldRoute === 'Home' && newRoute !== 'Home') || (fromProductPages.includes(oldRoute) && toProductDetailPages.includes(newRoute)) ) {
-        startPageTransition(oldRoute, newRoute)
-      }
+      // Removed page transition logic to eliminate navigation delay
     }, { immediate: true })
-    
-    const startPageTransition = (from, to) => {
-      isTransitioning.value = true
-      fromRoute.value = from
-      toRoute.value = to
-      
-      nextTick(() => {
-        if (pageTransition.value) {
-          pageTransition.value.startTransition()
-        }
-      })
-      
-      // End transition after animation completes
-      setTimeout(() => {
-        isTransitioning.value = false
-        if (pageTransition.value) {
-          pageTransition.value.resetTransition()
-        }
-      }, 2200)
-    }
     
     onMounted(() => {
       // Initial class setup
@@ -88,12 +51,7 @@ export default defineComponent({
     })
 
     return {
-      isTransitioning,
-      fromRoute,
-      toRoute,
-      pageTransition,
-      showLoadingOverlay,
-      fadeOutLoading
+      // Removed transition-related properties to eliminate navigation delay
     }
   }
 })

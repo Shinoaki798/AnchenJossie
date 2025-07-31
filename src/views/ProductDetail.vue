@@ -107,7 +107,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from 'vue';
+import { ref, onMounted, onBeforeUnmount, watch, computed } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 
 const route = useRoute();
@@ -146,6 +146,13 @@ const fetchProductData = async () => {
 // Fetch data on component mount and when route changes
 onMounted(fetchProductData);
 watch(() => route.params.slug, fetchProductData);
+
+// Clean up any ongoing processes when leaving the page
+onBeforeUnmount(() => {
+  // Clear any pending operations
+  product.value = null;
+  error.value = null;
+});
 </script>
 
 <style scoped>
@@ -162,16 +169,17 @@ watch(() => route.params.slug, fetchProductData);
 }
 
 .product-detail-page {
-  opacity: 0;
-  animation: fadeIn 1s ease-in forwards;
+  animation: fadeIn 0.2s ease-in forwards;
 }
 
 @keyframes fadeIn {
   from {
-    opacity: 0;
+    opacity: 0.8;
+    transform: translateY(10px);
   }
   to {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 

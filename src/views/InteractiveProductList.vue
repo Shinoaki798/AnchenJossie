@@ -237,7 +237,7 @@ const navigateWithTransition = (slug) => {
     // Check if current language is Chinese and use appropriate route
     const routePath = lang.value === 'cn' ? `/zh/products/${slug}` : `/products/${slug}`;
     router.push(routePath);
-  }, 1500); // Increased delay to show loading animation
+  }, 1500); 
 };
 
 const handleNodeClick = (event, d) => {

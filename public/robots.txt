@@ -1,0 +1,62 @@
+# robots.txt for Anchen Jossie Trading Co., Ltd.
+# Global Supplier of High-Quality Silicone Products
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin/development paths (if any)
+Disallow: /admin/
+Disallow: /.env
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /dist/
+Disallow: /_redirects
+Disallow: /_headers
+
+# Allow important directories
+Allow: /products/
+Allow: /zh/
+Allow: /images/
+Allow: /products-data/
+Allow: /public/
+
+# Specific crawlers optimization
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://anchenjossie.com/sitemap.xml
+
+# Host preference (if needed)
+Host: anchenjossie.com
