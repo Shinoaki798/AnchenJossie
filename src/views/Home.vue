@@ -204,7 +204,7 @@ export default defineComponent({
     // Preload background image
     const preloadImage = () => {
       const img = new Image()
-      img.src = '/images/your-hero-image.jpg'
+      img.src = '../images/your-hero-image.jpg'
     }
 
     const hideTransition = () => {
