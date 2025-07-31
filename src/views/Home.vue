@@ -61,7 +61,7 @@
         <h1>{{ currentLanguage === 'en' ? 'Welcome to Anchen Jossie Trading Co., Ltd.' : '欢迎来到安宸优思贸易有限公司' }}</h1>
         <p>{{ currentLanguage === 'en' ? 
           'A proud subsidiary of Anchen Group, bridging high-quality technology and silicone materials between China and Europe through sustainable, innovative, and trusted partnerships.' :
-          '作为安晨集团的骄傲子公司，我们通过可持续、创新和可信赖的合作伙伴关系，在中国和欧洲之间架设高质量技术和硅胶材料的桥梁。'
+          '作为安宸集团的骄傲子公司，我们通过可持续、创新和可信赖的合作伙伴关系，在中国和欧洲之间架设高质量技术和硅胶材料的桥梁。'
         }}</p>
 
         <!-- Split Section -->
