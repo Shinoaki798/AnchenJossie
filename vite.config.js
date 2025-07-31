@@ -9,9 +9,6 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   },
-  define: {
-    'import.meta.env.BASE_URL': JSON.stringify('/')
-  },
   server: {
     port: 3000,
     host: true

@@ -6,6 +6,9 @@ import ProductList from '@/views/InteractiveProductList.vue'
 import ProductDetail from '@/views/ProductDetail.vue'
 import ColorMasterbatch from '@/views/ColorMasterbatch.vue'
 
+// Define base URL - hardcoded for reliability
+const BASE_URL = '/'
+
 
 const routes = [
   {
@@ -86,12 +89,14 @@ const routes = [
   }
 ]
 
-// Get base URL with fallback
-const baseUrl = import.meta.env?.BASE_URL || import.meta.env?.VITE_BASE_URL || '/'
-
 const router = createRouter({
-  history: createWebHistory(baseUrl),
+  history: createWebHistory(BASE_URL),
   routes
+})
+
+// Add error handling for router
+router.onError((error) => {
+  console.error('Router error:', error)
 })
 
 export default router
