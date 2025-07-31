@@ -9,13 +9,26 @@ export default defineConfig({
       '@': resolve(__dirname, 'src')
     }
   },
+  define: {
+    'import.meta.env.BASE_URL': JSON.stringify('/')
+  },
   server: {
     port: 3000,
     host: true
   },
   build: {
     outDir: 'dist',
-    assetsDir: 'assets'
+    assetsDir: 'assets',
+    sourcemap: false,
+    minify: 'terser',
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['vue', 'vue-router']
+        }
+      }
+    }
   },
-  publicDir: 'public'
+  publicDir: 'public',
+  base: '/'
 })

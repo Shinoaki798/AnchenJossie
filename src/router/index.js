@@ -86,8 +86,11 @@ const routes = [
   }
 ]
 
+// Get base URL with fallback
+const baseUrl = import.meta.env?.BASE_URL || import.meta.env?.VITE_BASE_URL || '/'
+
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory(baseUrl),
   routes
 })
 
