@@ -84,21 +84,21 @@
 
         <!-- Extra Sections -->
         <section class="extra-section scroll-fade-in">
-          <h2>{{ currentLanguage === 'en' ? 'Our Vision for a Greener Future' : '我们对绿色未来的愿景' }}</h2>
+          <h2>{{ currentLanguage === 'en' ? 'Official Authorized Partner of DJSilicone' : 'DJSilicone官方授权合作伙伴' }}</h2>
           <p>{{ currentLanguage === 'en' ? 
-            'This is a text paragraph in English' :
-            '这是一段中文字'
+            'As outlined, DJSilicone has officially appointed Nanjing Anchen Jossie Trading Co., Ltd. as an authorized trading partner, enabling our company to legally distribute and represent DJSilicone’s full product portfolio with mutual commitment to quality, compliance, and market development.' :
+            '如上所述，DJSilicone 已正式指定南京安宸优思贸易有限公司为授权贸易伙伴，使我公司能够合法分销和代理 DJSilicone 的全部产品组合，并共同致力于质量、合规性和市场开发。'
           }}</p>
-          <img src="/images/green-vision.jpg" :alt="currentLanguage === 'en' ? 'Sustainability Vision' : '可持续发展愿景'">
+          <img src="/images/auth.jpg" :alt="currentLanguage === 'en' ? 'Certificate of Authorization' : '授权证明书'" class="small-image">
         </section>
 
-        <section class="extra-section scroll-fade-in">
+        <!-- <section class="extra-section scroll-fade-in">
           <h2>{{ currentLanguage === 'en' ? 'Corporate Culture & Global Collaboration' : '企业文化与全球合作' }}</h2>
           <p>{{ currentLanguage === 'en' ? 
             'This is a text paragraph in English' :
             '这是一段中文字'
           }}</p>
-          <img src="/images/team-photo.jpg" :alt="currentLanguage === 'en' ? 'Company Team' : '公司团队'">
+          <img src="/images/team-photo.jpg" :alt="currentLanguage === 'en' ? 'Company Team' : '公司团队'" class="small-image">
         </section>
 
         <section class="extra-section scroll-fade-in">
@@ -107,8 +107,8 @@
             'This is a text paragraph in English' :
             '这是一段中文字'
           }}</p>
-          <img src="/images/dongjue-group.png" :alt="currentLanguage === 'en' ? 'Dongjue Group' : '东爵集团'">
-        </section>
+          <img src="/images/dongjue-group.png" :alt="currentLanguage === 'en' ? 'Dongjue Group' : '东爵集团'" class="small-image">
+        </section> -->
       </main>
 
       <!-- Footer -->
@@ -840,52 +840,87 @@ html {
 
 .extra-section img {
   max-width: 100%;
-  border-radius: 12px;
-  margin-top: 15px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-.extra-section h2 {
-  color: #333;
+.small-image {
+  max-height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Footer Styles */
+.home-footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 0 20px 0;
+  margin-top: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  color: #ffffff;
   margin-bottom: 15px;
+  font-size: 1.2em;
+  border-bottom: 2px solid #3388bb;
+  padding-bottom: 5px;
+  display: inline-block;
 }
 
-.extra-section p {
-  color: #666;
+.footer-section p {
+  margin-bottom: 8px;
   line-height: 1.6;
+  color: #cccccc;
 }
 
-/* Scroll-triggered animations */
-.scroll-fade-in {
-  opacity: 0;
-  transform: translateY(50px);
-  transition: opacity 0.8s ease, transform 0.8s ease;
+.footer-section ul {
+  list-style: none;
+  padding: 0;
 }
 
-.scroll-fade-in.scroll-visible {
-  opacity: 1;
-  transform: translateY(0);
+.footer-section ul li {
+  margin-bottom: 8px;
 }
 
-/* Staggered animation delays for child elements */
-.split-column.scroll-fade-in:nth-child(1) {
-  transition-delay: 0.1s;
+.footer-section ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.split-column.scroll-fade-in:nth-child(2) {
-  transition-delay: 0.3s;
+.footer-section ul li a:hover {
+  color: #3388bb;
 }
 
-/* Target the three extra sections specifically */
-.extra-section.scroll-fade-in:nth-of-type(1) {
-  transition-delay: 0.2s;
+.footer-bottom {
+  text-align: center;
+  padding: 20px 40px 0 40px;
+  border-top: 1px solid #333333;
+  margin-top: 20px;
 }
 
-.extra-section.scroll-fade-in:nth-of-type(2) {
-  transition-delay: 0.4s;
-}
-
-.extra-section.scroll-fade-in:nth-of-type(3) {
-  transition-delay: 0.6s;
+.footer-bottom p {
+  margin: 0;
+  color: #888888;
+  font-size: 0.9em;
 }
 
 @media (max-width: 768px) {
