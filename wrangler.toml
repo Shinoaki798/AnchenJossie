@@ -6,6 +6,3 @@ pages_build_output_dir = "dist"
 ip = "0.0.0.0"
 port = 8788
 local_protocol = "http"
-
-[build]
-command = "npm run build"
