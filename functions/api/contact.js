@@ -19,14 +19,15 @@ export async function onRequestPost(context) {
     const emailData = {
       personalizations: [
         {
-          to: [{ email: "info@anchenjossie.com", name: "Anchen Jossie" }],
+          to: [{ email: "info@anchenjossie.com", name: "Anchen Jossie Info" }],
         },
       ],
       from: {
-        email: "no-reply@anchenjossie.com",
-        name: "Anchen Jossie Website",
+        email: "form-submission@anchenjossie.com",
+        name: "Anchen Jossie Contact Form",
       },
-      subject: `New Message from ${name}`,
+      reply_to: { email: email, name: name },
+      subject: `New Contact Form Submission from ${name}`,
       content: [
         {
           type: "text/plain",
