@@ -23,7 +23,7 @@ export async function onRequestPost(context) {
         },
       ],
       from: {
-        email: "form-submission@anchenjossie.com",
+        email: "no-reply@anchenjossie.com",
         name: "Anchen Jossie Contact Form",
       },
       reply_to: { email: email, name: name },
