@@ -50,16 +50,17 @@ export async function onRequestPost(context) {
         headers: { "Content-Type": "application/json" },
       });
     } else {
-      const errorText = await response.text();
-      console.error("Failed to send email:", errorText);
-      return new Response(JSON.stringify({ error: "Failed to send message. Please try again later." }), {
+      // Log the error and return the specific error message from MailChannels
+      const errorData = await response.json();
+      console.error("MailChannels error:", errorData);
+      return new Response(JSON.stringify({ error: `MailChannels Error: ${JSON.stringify(errorData.errors)}` }), {
         status: response.status,
         headers: { "Content-Type": "application/json" },
       });
     }
   } catch (error) {
     console.error("Error processing request:", error);
-    return new Response(JSON.stringify({ error: "An internal server error occurred." }), {
+    return new Response(JSON.stringify({ error: "An unexpected error occurred." }), {
       status: 500,
       headers: { "Content-Type": "application/json" },
     });
