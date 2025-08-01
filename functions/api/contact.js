@@ -1,7 +1,21 @@
 export async function onRequestPost(context) {
   try {
     const { request } = context;
-    const { name, email, company, message } = await request.json();
+    let name, email, company, message;
+
+    try {
+      const data = await request.json();
+      name = data.name;
+      email = data.email;
+      company = data.company;
+      message = data.message;
+    } catch (e) {
+      console.error("Failed to parse request body as JSON:", e);
+      return new Response(JSON.stringify({ error: "Invalid request body. Expected JSON." }), {
+        status: 400, // Bad Request
+        headers: { "Content-Type": "application/json" },
+      });
+    }
 
     if (!name || !email || !message) {
       return new Response(JSON.stringify({ error: "Missing required fields" }), {
@@ -50,10 +64,20 @@ export async function onRequestPost(context) {
         headers: { "Content-Type": "application/json" },
       });
     } else {
-      // Log the error and return the specific error message from MailChannels
-      const errorData = await response.json();
-      console.error("MailChannels error:", errorData);
-      return new Response(JSON.stringify({ error: `MailChannels Error: ${JSON.stringify(errorData.errors)}` }), {
+      // Try to get more specific error from MailChannels response
+      let errorBody = "Could not read error response body.";
+      try {
+        const errorData = await response.json();
+        errorBody = `MailChannels API Error: ${JSON.stringify(errorData.errors || errorData)}`;
+      } catch (e) {
+        try {
+          errorBody = `API Error: ${await response.text()}`;
+        } catch (e2) {
+          // Ignore e2, keep the original message
+        }
+      }
+      console.error(errorBody);
+      return new Response(JSON.stringify({ error: errorBody }), {
         status: response.status,
         headers: { "Content-Type": "application/json" },
       });
