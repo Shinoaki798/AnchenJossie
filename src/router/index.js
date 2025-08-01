@@ -5,6 +5,7 @@ import Contact from '@/views/Contact.vue'
 import ProductList from '@/views/InteractiveProductList.vue'
 import ProductDetail from '@/views/ProductDetail.vue'
 import ColorMasterbatch from '@/views/ColorMasterbatch.vue'
+import ProductDiscontinued from '@/views/ProductDiscontinued.vue'
 
 // Define base URL - hardcoded for reliability
 const BASE_URL = '/'
@@ -20,6 +21,14 @@ const routes = [
     path: '/Interactive_Product_List',
     name: 'InteractiveProductList',
     component: ProductList
+  },
+  {
+    path: '/products/SiliRub-Economic-Extrusion',
+    component: ProductDiscontinued
+  },
+  {
+    path: '/products/SiliRub-Economic-Molding',
+    component: ProductDiscontinued
   },
   {
     path: '/products/:slug',
@@ -50,6 +59,14 @@ const routes = [
       to.query.lang = 'cn'
       next()
     }
+  },
+  {
+    path: '/zh/products/SiliRub-Economic-Extrusion',
+    component: ProductDiscontinued
+  },
+  {
+    path: '/zh/products/SiliRub-Economic-Molding',
+    component: ProductDiscontinued
   },
   {
     path: '/zh/products/:slug',
