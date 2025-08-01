@@ -1,4 +1,19 @@
 export async function onRequestPost(context) {
+  // Set CORS headers
+  const corsHeaders = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+  };
+
+  // Handle OPTIONS preflight request
+  if (context.request.method === "OPTIONS") {
+    return new Response(null, {
+      status: 204,
+      headers: corsHeaders,
+    });
+  }
+
   try {
     const { request } = context;
     let name, email, company, message;
@@ -61,7 +76,7 @@ export async function onRequestPost(context) {
     if (response.status >= 200 && response.status < 300) {
       return new Response(JSON.stringify({ message: "Message sent successfully!" }), {
         status: 200,
-        headers: { "Content-Type": "application/json" },
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     } else {
       let errorBody = "Could not read error response body.";
@@ -78,14 +93,14 @@ export async function onRequestPost(context) {
       console.error(errorBody);
       return new Response(JSON.stringify({ error: errorBody }), {
         status: response.status,
-        headers: { "Content-Type": "application/json" },
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
   } catch (error) {
     console.error("Error processing request:", error);
     return new Response(JSON.stringify({ error: "An unexpected error occurred." }), {
       status: 500,
-      headers: { "Content-Type": "application/json" },
+      headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
 }
