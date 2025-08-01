@@ -49,10 +49,10 @@
         </div>
 
         <div class="contact-form fade-in" :class="{ visible: animationsVisible }">
-          <h2>Send us a Message</h2>
+          <h2>{{ currentLanguage === 'en' ? 'Send us a Message' : '给我们发信息' }}</h2>
           <form @submit.prevent="submitForm">
             <div class="form-group">
-              <label for="name">Name *</label>
+              <label for="name">{{ currentLanguage === 'en' ? 'Name' : '姓名' }} *</label>
               <input 
                 type="text" 
                 id="name" 
@@ -64,7 +64,7 @@
             </div>
             
             <div class="form-group">
-              <label for="email">Email *</label>
+              <label for="email">{{ currentLanguage === 'en' ? 'Email' : '邮箱' }} *</label>
               <input 
                 type="email" 
                 id="email" 
@@ -76,7 +76,7 @@
             </div>
             
             <div class="form-group">
-              <label for="company">Company</label>
+              <label for="company">{{ currentLanguage === 'en' ? 'Company' : '公司' }}</label>
               <input 
                 type="text" 
                 id="company" 
@@ -85,23 +85,10 @@
             </div>
             
             <div class="form-group">
-              <label for="subject">Subject *</label>
-              <input 
-                type="text" 
-                id="subject" 
-                v-model="form.subject" 
-                required
-                :class="{ error: errors.subject }"
-              >
-              <span v-if="errors.subject" class="error-message">{{ errors.subject }}</span>
-            </div>
-            
-            <div class="form-group">
-              <label for="message">Message *</label>
+              <label for="message">{{ currentLanguage === 'en' ? 'Message' : '信息' }} *</label>
               <textarea 
                 id="message" 
                 v-model="form.message" 
-                rows="6" 
                 required
                 :class="{ error: errors.message }"
               ></textarea>
@@ -109,14 +96,12 @@
             </div>
             
             <button type="submit" class="submit-btn" :disabled="isSubmitting">
-              <span v-if="isSubmitting">Sending...</span>
-              <span v-else>Send Message</span>
+              {{ isSubmitting ? (currentLanguage === 'en' ? 'Submitting...' : '提交中...') : (currentLanguage === 'en' ? 'Submit' : '提交') }}
             </button>
+            <p v-if="submitStatus" class="submit-status" :class="{ 'success': submitStatus === 'success', 'error': submitStatus === 'error' }">
+              {{ submitMessage }}
+            </p>
           </form>
-          
-          <div v-if="submitMessage" class="submit-message" :class="submitMessageType">
-            {{ submitMessage }}
-          </div>
         </div>
       </div>
     </main>
@@ -124,123 +109,96 @@
 </template>
 
 <script>
-import { defineComponent, ref, reactive, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
-
-export default defineComponent({
+export default {
   name: 'Contact',
-  setup() {
-    const route = useRoute()
-    const animationsVisible = ref(false)
-    const isSubmitting = ref(false)
-    const submitMessage = ref('')
-    const submitMessageType = ref('')
-    
-    // Get language from route query parameter, default to 'en'
-    const currentLanguage = ref(route.query.lang || (route.path.includes('/zh/') ? 'cn' : 'en'))
-    
-    const form = reactive({
-      name: '',
-      email: '',
-      company: '',
-      subject: '',
-      message: ''
-    })
-    
-    const errors = reactive({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    })
-
-    const validateForm = () => {
-      let isValid = true
-      
-      // Reset errors
-      Object.keys(errors).forEach(key => {
-        errors[key] = ''
-      })
-      
-      if (!form.name.trim()) {
-        errors.name = 'Name is required'
-        isValid = false
-      }
-      
-      if (!form.email.trim()) {
-        errors.email = 'Email is required'
-        isValid = false
-      } else if (!/\S+@\S+\.\S+/.test(form.email)) {
-        errors.email = 'Please enter a valid email'
-        isValid = false
-      }
-      
-      if (!form.subject.trim()) {
-        errors.subject = 'Subject is required'
-        isValid = false
-      }
-      
-      if (!form.message.trim()) {
-        errors.message = 'Message is required'
-        isValid = false
-      }
-      
-      return isValid
-    }
-
-    const submitForm = async () => {
-      if (!validateForm()) {
-        return
-      }
-      
-      isSubmitting.value = true
-      submitMessage.value = ''
-      
-      try {
-        // Simulate form submission
-        await new Promise(resolve => setTimeout(resolve, 2000))
-        
-        // Reset form
-        Object.keys(form).forEach(key => {
-          form[key] = ''
-        })
-        
-        submitMessage.value = 'Thank you for your message! We will get back to you soon.'
-        submitMessageType.value = 'success'
-      } catch (error) {
-        submitMessage.value = 'Sorry, there was an error sending your message. Please try again.'
-        submitMessageType.value = 'error'
-      } finally {
-        isSubmitting.value = false
-        
-        // Clear message after 5 seconds
-        setTimeout(() => {
-          submitMessage.value = ''
-        }, 5000)
-      }
-    }
-
-    onMounted(() => {
-      setTimeout(() => {
-        animationsVisible.value = true
-      }, 300)
-    })
-
+  data() {
     return {
-      currentLanguage,
-      animationsVisible,
-      form,
-      errors,
-      isSubmitting,
-      submitMessage,
-      submitMessageType,
-      submitForm
+      form: {
+        name: '',
+        email: '',
+        company: '',
+        message: ''
+      },
+      errors: {},
+      animationsVisible: false,
+      isSubmitting: false,
+      submitStatus: null, // null, 'success', or 'error'
+      submitMessage: ''
+    };
+  },
+  computed: {
+    currentLanguage() {
+      return this.$route.query.lang || (this.$route.path.includes('/zh/') ? 'cn' : 'en');
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.animationsVisible = true;
+    });
+  },
+  methods: {
+    validateForm() {
+      this.errors = {};
+      if (!this.form.name) {
+        this.errors.name = this.currentLanguage === 'en' ? 'Name is required.' : '姓名是必填项。';
+      }
+      if (!this.form.email) {
+        this.errors.email = this.currentLanguage === 'en' ? 'Email is required.' : '邮箱是必填项。';
+      } else if (!/\S+@\S+\.\S+/.test(this.form.email)) {
+        this.errors.email = this.currentLanguage === 'en' ? 'Email is invalid.' : '邮箱格式无效。';
+      }
+      if (!this.form.message) {
+        this.errors.message = this.currentLanguage === 'en' ? 'Message is required.' : '信息是必填项。';
+      }
+      return Object.keys(this.errors).length === 0;
+    },
+    async submitForm() {
+      if (!this.validateForm()) {
+        return;
+      }
+
+      this.isSubmitting = true;
+      this.submitStatus = null;
+      this.submitMessage = '';
+
+      try {
+        const response = await fetch('/api/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(this.form)
+        });
+
+        const result = await response.json();
+
+        if (response.ok) {
+          this.submitStatus = 'success';
+          this.submitMessage = this.currentLanguage === 'en' ? 'Message sent successfully!' : '信息发送成功！';
+          this.resetForm();
+        } else {
+          this.submitStatus = 'error';
+          this.submitMessage = result.error || (this.currentLanguage === 'en' ? 'An error occurred. Please try again.' : '发生错误，请重试。');
+        }
+      } catch (error) {
+        this.submitStatus = 'error';
+        this.submitMessage = this.currentLanguage === 'en' ? 'An error occurred. Please try again.' : '发生错误，请重试。';
+      } finally {
+        this.isSubmitting = false;
+      }
+    },
+    resetForm() {
+      this.form.name = '';
+      this.form.email = '';
+      this.form.company = '';
+      this.form.message = '';
     }
   }
-})
+};
 </script>
 
 <style scoped>
+/* General Styles */
 .contact-page {
   flex: 1;
 }
@@ -353,54 +311,55 @@ export default defineComponent({
 }
 
 .submit-btn {
-  background: #667eea;
-  color: white;
   padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
   border: none;
-  border-radius: 8px;
-  font-size: 1.1em;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
   width: 100%;
 }
 
-.submit-btn:hover:not(:disabled) {
-  background: #764ba2;
-}
-
 .submit-btn:disabled {
-  background: #ccc;
+  background-color: #cccccc;
   cursor: not-allowed;
 }
 
-.submit-message {
-  margin-top: 20px;
-  padding: 15px;
-  border-radius: 8px;
+.submit-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.submit-status {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
   text-align: center;
 }
 
-.submit-message.success {
-  background: #e8f5e8;
-  color: #2e7d32;
-  border: 1px solid #81c784;
+.submit-status.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
 }
 
-.submit-message.error {
-  background: #ffebee;
-  color: #c62828;
-  border: 1px solid #e57373;
+.submit-status.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
 }
 
-.fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.8s ease, transform 1.8s ease;
-}
-
-.fade-in.visible {
-  opacity: 1;
-  transform: translateY(0);
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  
+  .contact-form {
+    padding: 30px 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -410,15 +369,6 @@ export default defineComponent({
   
   .hero-content p {
     font-size: 1.2em;
-  }
-  
-  .contact-container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  
-  .contact-form {
-    padding: 30px 20px;
   }
 }
 </style>

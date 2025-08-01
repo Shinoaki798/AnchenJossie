@@ -6,6 +6,7 @@ import ProductList from '@/views/InteractiveProductList.vue'
 import ProductDetail from '@/views/ProductDetail.vue'
 import ColorMasterbatch from '@/views/ColorMasterbatch.vue'
 import ProductDiscontinued from '@/views/ProductDiscontinued.vue'
+import APITest from '@/views/APITest.vue';
 
 // Define base URL - hardcoded for reliability
 const BASE_URL = '/'
@@ -49,6 +50,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/api-test',
+    name: 'APITest',
+    component: APITest
   },
   // Chinese language routes
   {
