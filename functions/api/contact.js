@@ -1,27 +1,4 @@
-export const onRequest = async (context) => {
-  // Set CORS headers
-  const corsHeaders = {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "POST, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type",
-  };
-
-  // Handle OPTIONS preflight request
-  if (context.request.method === "OPTIONS") {
-    return new Response(null, {
-      status: 204,
-      headers: corsHeaders,
-    });
-  }
-
-  // Only allow POST requests for the rest of the function
-  if (context.request.method !== "POST") {
-    return new Response(JSON.stringify({ error: "Method Not Allowed" }), {
-      status: 405,
-      headers: { ...corsHeaders, "Content-Type": "application/json" },
-    });
-  }
-
+export async function onRequestPost(context) {
   try {
     const { request } = context;
     let name, email, company, message;
@@ -36,14 +13,14 @@ export const onRequest = async (context) => {
       console.error("Failed to parse request body as JSON:", e);
       return new Response(JSON.stringify({ error: "Invalid request body. Expected JSON." }), {
         status: 400, // Bad Request
-        headers: { ...corsHeaders, "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" },
       });
     }
 
     if (!name || !email || !message) {
       return new Response(JSON.stringify({ error: "Missing required fields" }), {
         status: 400,
-        headers: { ...corsHeaders, "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" },
       });
     }
 
@@ -84,7 +61,7 @@ export const onRequest = async (context) => {
     if (response.status >= 200 && response.status < 300) {
       return new Response(JSON.stringify({ message: "Message sent successfully!" }), {
         status: 200,
-        headers: { ...corsHeaders, "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" },
       });
     } else {
       let errorBody = "Could not read error response body.";
@@ -101,14 +78,14 @@ export const onRequest = async (context) => {
       console.error(errorBody);
       return new Response(JSON.stringify({ error: errorBody }), {
         status: response.status,
-        headers: { ...corsHeaders, "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json" },
       });
     }
   } catch (error) {
     console.error("Error processing request:", error);
     return new Response(JSON.stringify({ error: "An unexpected error occurred." }), {
       status: 500,
-      headers: { ...corsHeaders, "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json" },
     });
   }
-};
+}
