@@ -23,7 +23,8 @@
     </svg>
     <canvas ref="minimapRef" class="minimap fade-in" :class="{ visible: contentVisible }" width="320" height="100"></canvas>
     <div class="minimap-indicator fade-in" :class="{ visible: contentVisible }">
-      <span v-html="minimapIndicatorText"></span>
+      <span v-if="lang === 'cn'">点击红点<span class="red-dot"></span>查看产品规格。</span>
+      <span v-else>Click on the red dot<span class="red-dot"></span> to check the specification of our product.</span>
     </div>
   </div>
 </template>
@@ -217,11 +218,6 @@ const data = computed(() => (lang.value === 'cn' ? data_cn : data_en));
 
 // --- Computed Text Properties ---
 const resetViewText = computed(() => (lang.value === 'cn' ? '重置视图' : 'Reset View'));
-const minimapIndicatorText = computed(() => (
-  lang.value === 'cn'
-    ? '点击<span class="red-dot"></span>红点查看产品规格。'
-    : 'Click on the <span class="red-dot"></span>red dot to check the specification of our product.'
-));
 
 
 // --- D3 and Component Logic ---
@@ -712,6 +708,6 @@ onBeforeUnmount(() => {
     height: 12px;
     background: red;
     border-radius: 50%;
-    margin-right: 4px;
+    margin-left: 4px;
   }
 </style>
