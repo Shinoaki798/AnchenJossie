@@ -1,10 +1,28 @@
 export async function onRequestPost(context) {
   try {
-    // Hardcoded minimal test case. This ignores all input from the form.
-    const name = "Test";
-    const email = "test@example.com";
-    const company = "Test Inc.";
-    const message = "This is a test message to see if the API works at all.";
+    const { request } = context;
+    let name, email, company, message;
+
+    try {
+      const data = await request.json();
+      name = data.name;
+      email = data.email;
+      company = data.company;
+      message = data.message;
+    } catch (e) {
+      console.error("Failed to parse request body as JSON:", e);
+      return new Response(JSON.stringify({ error: "Invalid request body. Expected JSON." }), {
+        status: 400, // Bad Request
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
+    if (!name || !email || !message) {
+      return new Response(JSON.stringify({ error: "Missing required fields" }), {
+        status: 400,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
 
     let emailBody = `You have a new message from your website contact form:\n\nName: ${name}\nEmail: ${email}\n`;
     if (company) {
@@ -46,7 +64,6 @@ export async function onRequestPost(context) {
         headers: { "Content-Type": "application/json" },
       });
     } else {
-      // Try to get more specific error from MailChannels response
       let errorBody = "Could not read error response body.";
       try {
         const errorData = await response.json();
@@ -55,7 +72,7 @@ export async function onRequestPost(context) {
         try {
           errorBody = `API Error: ${await response.text()}`;
         } catch (e2) {
-          // Ignore e2, keep the original message
+          // fallback
         }
       }
       console.error(errorBody);
