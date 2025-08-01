@@ -86,6 +86,11 @@ const routes = [
       to.query.lang = 'cn'
       next()
     }
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import('@/views/NotFound.vue')
   }
 ]
 
