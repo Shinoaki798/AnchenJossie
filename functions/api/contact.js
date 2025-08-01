@@ -1,4 +1,4 @@
-export async function onRequestPost(context) {
+export const onRequest = async (context) => {
   // Set CORS headers
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
@@ -11,6 +11,14 @@ export async function onRequestPost(context) {
     return new Response(null, {
       status: 204,
       headers: corsHeaders,
+    });
+  }
+
+  // Only allow POST requests for the rest of the function
+  if (context.request.method !== "POST") {
+    return new Response(JSON.stringify({ error: "Method Not Allowed" }), {
+      status: 405,
+      headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
 
@@ -28,14 +36,14 @@ export async function onRequestPost(context) {
       console.error("Failed to parse request body as JSON:", e);
       return new Response(JSON.stringify({ error: "Invalid request body. Expected JSON." }), {
         status: 400, // Bad Request
-        headers: { "Content-Type": "application/json" },
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
 
     if (!name || !email || !message) {
       return new Response(JSON.stringify({ error: "Missing required fields" }), {
         status: 400,
-        headers: { "Content-Type": "application/json" },
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
     }
 
@@ -103,4 +111,4 @@ export async function onRequestPost(context) {
       headers: { ...corsHeaders, "Content-Type": "application/json" },
     });
   }
-}
+};
